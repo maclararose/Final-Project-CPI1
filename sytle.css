@@ -27,6 +27,7 @@ li {
   text-align: center;
   text-decoration: none;
   list-style: none;
+  border: none;
   padding: 13px;
 }
 
@@ -43,7 +44,6 @@ ul li a {
   color: #fff;
   background: #5AAA95;
   padding: 5px;
-  border: 1px solid #ccc;
   cursor: pointer;
 }
 
