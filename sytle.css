@@ -6,17 +6,17 @@
 
 #banner {
   width: 100%;
+  margin-bottom: 100px;
 }
 
 nav {
   background-color: #5AAA95;
   color: #fff;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   float: left;
-  height: 350px;
+  height: 100vh;
 }
 
 ul li {
@@ -62,9 +62,133 @@ a, a:visited, a:link {
   width: 10px;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+article {
+  width: 800px;
+  align-self: center;
+  padding: 20px;
+}
+
+.img-artic {
+  width: 70%;
+  align-self: center;
+}
+
+#icon-dev {
+  border-radius: 100%;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+main p {
+  margin-top: 30px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.container_card:hover {
+  box-shadow: 10px 10px 10px #ccc;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.icon-rede {
+  width: 70px;
+}
+
 footer {
   background-color: #B44651;
   color: #fff;
   padding: 30px;
   text-align: center;
+}
+
+@media (max-width:969px) {
+  #banner {
+    background-image: url("./media/banner-response.png");
+    margin-bottom: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    width: 300px;
+  }
+
+  article p {
+    text-align: start;
+    font-size: 0.9em;
+  }
+
+  #icon-dev {
+    background-image: url('./media/icon-dev-response.png');
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px #ccc;
+    width: 224px;
+    height: 224px;
+  }
+
+  .container {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .container_card {
+    width: 33%;
+    text-align: center;
+  }
+
+  .icon-rede {
+    width: 40px;
+  }
+
+  #redes-sociais {
+    width: 100%;
+  }
+}
+
+@media (min-width:1220px) {
+  section {
+    width: 90%;
+    padding: 60;
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    width: 80%;
+  }
 }
