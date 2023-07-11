@@ -39,8 +39,8 @@ And Done! You can edit the files.
 
 # Author :black_nib:
 - __Maria Clara B__ - Code and Documentation - [[LinkedIn](https://www.linkedin.com/in/mariaclarab/)]
--__Natália Oliveira__ - Images and prototype - [[GitHub](https://github.com/oliveiranat17)]
--__Virginia Prettz - Images and prototype - [[GitHub](https://github.com/VirginiaPrettz)]
+- __Natália Oliveira__ - Images and prototype - [[GitHub](https://github.com/oliveiranat17)]
+- __Virginia Prettz__ - Images and prototype - [[GitHub](https://github.com/VirginiaPrettz)]
 
 # License :page_facing_up:
 This project is under license [[MIT](https://github.com/maclararose/Final-Project-CPI1/blob/main/LICENSE.md)] :round_pushpin:.
