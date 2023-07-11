@@ -7,3 +7,64 @@
 #banner {
   width: 100%;
 }
+
+nav {
+  background-color: #5AAA95;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  float: left;
+  height: 350px;
+}
+
+ul li {
+  position: relative;
+}
+
+li {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 13px;
+}
+
+li ul {
+  position: absolute;
+  left: 70px;
+  top: 0;
+  display: none;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background: #5AAA95;
+  padding: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+li:hover, li:hover ul { 
+  display: block;
+  background-color: #095256;
+  transition: 0.5s;
+}
+
+a, a:visited, a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#icon-down {
+  width: 10px;
+}
+
+footer {
+  background-color: #B44651;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
