@@ -6,17 +6,15 @@
 
 #banner {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: -5px;
 }
 
-nav {
+.nav-bar {
   background-color: #5AAA95;
   color: #fff;
   display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-  float: left;
-  height: 100vh;
+  align-items: center;
 }
 
 ul li {
@@ -33,8 +31,6 @@ li {
 
 li ul {
   position: absolute;
-  left: 70px;
-  top: 0;
   display: none;
 }
 
@@ -146,6 +142,7 @@ footer {
 
   article {
     width: 300px;
+    text-align: justify;
   }
 
   article p {
@@ -190,5 +187,6 @@ footer {
 
   article {
     width: 80%;
+    text-align: justify;
   }
 }
